@@ -1,0 +1,31 @@
+{
+  "name": "binance-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon .",
+    "build": "next build && ENV=PRODUCTION nodemon ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.9.11",
+    "@material-ui/icons": "^4.9.1",
+    "express": "^4.17.1",
+    "next": "^9.3.5",
+    "node-fetch": "^2.6.0",
+    "query-string": "^6.12.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node-fetch": "^2.5.7",
+    "@types/react": "^16.9.34",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.9.1"
+  }
+}
